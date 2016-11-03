@@ -23,7 +23,7 @@ The chart below lists the value n, where n is the possible search space for char
 | Case sensitive alphanumeric and symbols | 95  | 6.6  |
 
 
-### Dictionary Attacks
+#### Dictionary Attacks
 Just using a combination of different types of characters is not enough though. If there are consecutive lowercase letters for example, the password is more likely to contain a word. Passwords that contain words are less secure than passwords *of the same length* that do not contain words because they can be guessed with the help of a dictionary. Since doing a dictionary lookup is difficult, we will instead penalize consecutive similar values.
 
 
@@ -43,10 +43,10 @@ Depending on the total letter complexity, add the proper amount of bits for each
 
 The Assignment
 --------------
-### Computation Methods
+#### Computation Methods
 Implement the four methods outlined in the PasswordManager.java file.
 
-### Interactive Program
+#### Interactive Program
 Create a `PasswordComparison` class which has a main method to use your four methods from PasswordManager.java. The program should ask the user to enter a password for analysis, and compare it to a randomly generated password.
 
 Example Execution:
@@ -68,7 +68,7 @@ Strength: 100
 Encrypted Version: sdauvhp7rhh324G@#rf
 ```
 
-### Documentation
+#### Documentation
 I've already written *most* of the javadoc for you. You're welcome to use it as is, or make it better.
 
 This README is also sketched out, but it is currently written as an assignment. When you finish the lab, Delete this section of the README, and fill in the sections below. The Usage section should tell your users what the program does, and how it is ueful as well as what commands to use to run it. You're welcome to use my example execution from above, but you may also write in your own style.
